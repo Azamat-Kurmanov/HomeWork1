@@ -13,7 +13,6 @@ public class Polindrome {
         System.out.println("slovo: " + slovo.toLowerCase());
         String s = slovo.toLowerCase().replaceAll("[^a-zA-Z0-9]", "");
         System.out.println("ss: " + s);
-//        String s = "madam";
         List<Character> list = new LinkedList<>();
         for (char ch: s.toCharArray()){
             list.add(ch);
